@@ -1,7 +1,7 @@
 version: "3.8"
 services:
-  app :
-    build: ./app/
+  etl :
+    build: ./etl/
     depends_on:
       - "db"
     # command: ["./wait-for-postgres.sh", "db", "python", "app.py"]
