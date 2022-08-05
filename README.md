@@ -1,2 +1,4 @@
 # sfl-scientific
-Interview challenge for SFL Scientific
+```
+docker-compose up --abort-on-container-exit
+```

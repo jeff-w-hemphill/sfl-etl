@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  app :
+    build: ./app/
+    depends_on:
+      - "db"
+    # command: ["./wait-for-postgres.sh", "db", "python", "app.py"]
+  db:
+    build: ./db/
+    ports:
+      - 5433:5432
