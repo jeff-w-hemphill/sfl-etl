@@ -4,7 +4,10 @@ Python and Postgres ETL implementation running on docker containers to deliver t
 
 ![diagram](etl-flow.png "test")
 ## Starting the Job
-
+Build containers and Run job and stop containers once it is finished:
+```
+docker-compose up --build
+```
 Run job and stop containers once it is finished:
 ```
 docker-compose up --abort-on-container-exit
